@@ -8,7 +8,7 @@ What is the purpose, and most common use cases?
 
 - Once cost and perhaps other metrics are incorperated, a customer application can be used in conjuction with the the monitoring application ( not accessible to the customer ) to optimize the operational cost of running the application. This may lead to pricing benefits both for the application provider and the customer using the application.
 
-- Cost optimization aspect: This would require as mentioned before, batch processing from some pricing history database on a very small subset of services (Ec2,S3 etc) required by the app (I want to make this as simple as possible). This batch processing would be done for each cloud. Then some automation would provision services across the according to what would be the cheaper option. This felxibility would prevent "vendor lock-in" and minimiize cost.
+- Cost optimization aspect: This would require as mentioned before, batch processing from some pricing history database on a very small subset of services (Ec2,S3 etc) required by the app (I want to make this as simple as possible). This batch processing would be done for each cloud. Then some automation would provision services across the clouds according to what would be the cheaper option. This felxibility would prevent "vendor lock-in" and minimiize cost.
 
 - Risk mitigation: disaster recovery (in case one or more services crash) and reduced latency and downtime ( Localizing resources based on geographical separation between different clouds). This would raise a specific flag in the monitoring application in which failed assets would be redeployed and rerouted to a functioning cloud.
 
