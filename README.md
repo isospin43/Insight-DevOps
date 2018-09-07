@@ -9,5 +9,6 @@ Load testing is critical to ensure proper scalability and flexibility. In many a
 3  
 
 
+![response time graph](https://user-images.githubusercontent.com/14183360/45243601-57f9b580-b2a9-11e8-80d3-4034bee483d3.png)
 
 
