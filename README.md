@@ -8,6 +8,7 @@ Load testing is critical to ensure proper scalability and flexibility. In many a
 - To administer the load testing, I used multiple instances to host Jmeter. Jmeter's function here was to generate web traffic requests that would hit the NGINX servers.
 - The requests are made to a DNS hostname ( In the case of AWS, this is called route 53 ). Associated with this is a routing table which identifies the relevant IP addresses the requests will be sent to. In addition, the latency routing policy was specified. This is detailed in the code snippet below:
 
+```
 resource "aws_route53_record" "cdnv4" {
   zone_id        = "${data.aws_route53_zone.default.zone_id}"
   name           = "${format("%s.%s", var.r53_domain_name, data.aws_route53_zone.default.name)}"
@@ -20,7 +21,7 @@ resource "aws_route53_record" "cdnv4" {
     region = "${var.region}"
   }
 }
-
+```
 
 # Response time
 ![response time graph](https://user-images.githubusercontent.com/14183360/45243601-57f9b580-b2a9-11e8-80d3-4034bee483d3.png)
