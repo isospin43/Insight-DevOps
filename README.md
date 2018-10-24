@@ -22,6 +22,9 @@ resource "aws_route53_record" "cdnv4" {
   }
 }
 ```
+[linkname](https://youtu.be/EtSAGjnU0Aw)
+
+
 
 # Response time
 ![response time graph](https://user-images.githubusercontent.com/14183360/45243601-57f9b580-b2a9-11e8-80d3-4034bee483d3.png)
