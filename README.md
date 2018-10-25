@@ -23,9 +23,9 @@ resource "aws_route53_record" "cdnv4" {
 }
 ```
 [linkname](https://youtu.be/EtSAGjnU0Aw)
-
-<img src="/docs/logo.png" alt="My cool logo"/>
-
+      
+<img alt="System overview" src="Untitled Diagram (1).png">
+      
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EtSAGjnU0Aw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Response time
