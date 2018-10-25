@@ -22,7 +22,8 @@ resource "aws_route53_record" "cdnv4" {
   }
 }
 ```
-[linkname](https://youtu.be/EtSAGjnU0Aw)
+[Jmeter Run with master & slave]()
+[Web Traffic simulation](https://youtu.be/EtSAGjnU0Aw)
       
 <img alt="System overview" src="Untitled Diagram (1).png">
       
