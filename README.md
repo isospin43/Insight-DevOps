@@ -30,8 +30,10 @@ resource "aws_route53_record" "cdnv4" {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EtSAGjnU0Aw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Response time
+Expected increase in latency / response time as a result of increased web traffic.
 ![response time graph](https://user-images.githubusercontent.com/14183360/45243601-57f9b580-b2a9-11e8-80d3-4034bee483d3.png)
 
 # Jmeter - Master & slave
+
 <img width="892" alt="screen shot 2018-09-04 at 9 01 47 am" src="https://user-images.githubusercontent.com/14183360/45243698-b888f280-b2a9-11e8-937d-242636b12e9e.png">
 
