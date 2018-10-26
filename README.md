@@ -2,7 +2,7 @@
 
 # General overview of this Insight DevOps project.
 
-Load testing is critical to ensure proper scalability and flexibility. In many applications engineers will utlilize such tools as automatic scaling groups to adjust for different web traffic loads that may occur. In this setup I avoided any vertical or horizontal scaling of my servers.  
+Load testing is critical to ensure proper scalability and flexibility. In many applications engineers will utlilize such tools as automatic scaling groups to adjust for different web traffic loads that may occur. In this setup I avoided any vertical or horizontal scaling of my servers. The use case of this project is to adjust network response when web traffic is localized to a particular region. Also it a solution in a failover scenario.
 
 - In this project I used terraform to spin up a cluster of NGINX servers across multiple regions, in this case, east and west coast. 
 - To administer the load testing, I used multiple instances to host Jmeter. Jmeter's function here was to generate web traffic requests that would hit the NGINX servers.
