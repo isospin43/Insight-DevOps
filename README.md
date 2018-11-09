@@ -22,6 +22,17 @@ resource "aws_route53_record" "cdnv4" {
   }
 }
 ```
+
+After building up the NGINX webservers using the included terraform script, I initialized the Jmeter Master and Slave nodes.
+First you start the Slave node by running 
+```
+./jmeter-server
+```
+Then to start the Master node which will communicate to the slave node (assuming ssh tunneling has been setup) you enter
+```
+./jmeter -n -t HTTP_request.jmx -Djava.rmi.server.hostname=http://cdn.multi-region-sv-insight.com -r -l jmeteroutput.csv&
+```
+
 [Jmeter Run with master & slave]()
 [Web Traffic simulation](https://youtu.be/EtSAGjnU0Aw)
       
