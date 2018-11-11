@@ -36,25 +36,21 @@ Then to start the Master node which will communicate to the slave node to start 
 [Jmeter Run with master & slave](https://youtu.be/wLgNfzp3kpM) \\
 [Web Traffic simulation](https://youtu.be/EtSAGjnU0Aw)
 
-# Resources & links
-[Latency based routing](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-latency
-) \\
-[JMeter on AWS: Performance Testing on Cloud](http://www.testingdiaries.com/jmeter-on-aws/)
 
 # System       
 <img alt="System overview" src="Untitled.Diagram.3.png">
 
-# AWS Cloudwatch Monitoring 
+# AWS Cloudwatch Monitoring / Jmeter - Master & slave
 <img alt="System overview" src="Screen Shot 2018-09-08 at 10.53.00 AM.png">
 
+<img width="892" alt="screen shot 2018-09-04 at 9 01 47 am" src="https://user-images.githubusercontent.com/14183360/45243698-b888f280-b2a9-11e8-937d-242636b12e9e.png">
       
-
 
 # Response time
 Expected increase in latency / response time as a result of increased web traffic.
 ![response time graph](https://user-images.githubusercontent.com/14183360/45243601-57f9b580-b2a9-11e8-80d3-4034bee483d3.png)
 
-# Jmeter - Master & slave
-
-<img width="892" alt="screen shot 2018-09-04 at 9 01 47 am" src="https://user-images.githubusercontent.com/14183360/45243698-b888f280-b2a9-11e8-937d-242636b12e9e.png">
-
+# Resources & links
+[Latency based routing](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-latency
+) \\
+[JMeter on AWS: Performance Testing on Cloud](http://www.testingdiaries.com/jmeter-on-aws/)
