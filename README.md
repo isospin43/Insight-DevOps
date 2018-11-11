@@ -38,7 +38,7 @@ Then to start the Master node which will communicate to the slave node to start 
 
 
 # System       
-<img alt="System overview" src="Untitled.Diagram.3.png">
+<img alt="System overview" src="Images/Untitled.Diagram.3.png">
 
 # AWS Cloudwatch Monitoring / Jmeter - Master & slave
 <img alt="System overview" src="Images/Screen Shot 2018-09-08 at 10.53.00 AM.png">
