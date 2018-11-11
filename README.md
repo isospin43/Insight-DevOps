@@ -52,5 +52,10 @@ Expected increase in latency / response time as a result of increased web traffi
 
 # Resources & links
 [Latency based routing](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-latency
-) \\
+)
+
+
 [JMeter on AWS: Performance Testing on Cloud](http://www.testingdiaries.com/jmeter-on-aws/)
+
+
+[How to build a multi-region active-active architecture on AWS](https://read.acloud.guru/why-and-how-do-we-build-a-multi-region-active-active-architecture-6d81acb7d208)
