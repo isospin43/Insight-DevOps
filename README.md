@@ -42,7 +42,7 @@ Then to start the Master node which will communicate to the slave node to start 
 [JMeter on AWS: Performance Testing on Cloud](http://www.testingdiaries.com/jmeter-on-aws/)
 
 # System       
-<img alt="System overview" src="Untitled Diagram (1).png">
+<img alt="System overview" src="Untitled.Diagram.3.pdf">
       
 
 
