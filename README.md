@@ -43,6 +43,10 @@ Then to start the Master node which will communicate to the slave node to start 
 
 # System       
 <img alt="System overview" src="Untitled.Diagram.3.png">
+
+# AWS Cloudwatch Monitoring 
+<img alt="System overview" src="Screen Shot 2018-09-08 at 10.53.00 AM.png">
+
       
 
 
