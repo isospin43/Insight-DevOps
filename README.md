@@ -1,5 +1,7 @@
 # Insight-DevOps-2018 / Multi-Region deployment, load testing and latency based routing.
 
+[Project Slides](https://docs.google.com/presentation/d/1FIW-IVfsy6Ayz6wFAARaaJMXTfrmCAPVVCXZyEXIons/edit?usp=sharing)
+
 # General overview of this Insight DevOps project.
 
 Load testing is critical to ensure proper scalability and flexibility. In many applications engineers will utlilize such tools as automatic scaling groups to adjust for different web traffic loads that may occur. In this setup I avoided any vertical or horizontal scaling of my servers. The use case of this project is to adjust network response when web traffic is localized to a particular region. Also it a solution in a failover scenario.
